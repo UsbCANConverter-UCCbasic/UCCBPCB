@@ -68,17 +68,6 @@ F 3 "" H 5250 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P1
-U 1 1 570565AB
-P 950 2000
-F 0 "P1" H 950 1750 50  0000 C CNN
-F 1 "CONN_01X04" H 1050 1750 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 950 2000 50  0001 C CNN
-F 3 "" H 950 2000 50  0000 C CNN
-	1    950  2000
-	-1   0    0    1   
-$EndComp
-$Comp
 L R R3
 U 1 1 5705676D
 P 1950 1700
@@ -89,30 +78,8 @@ F 3 "" H 1950 1700 50  0000 C CNN
 	1    1950 1700
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R1
-U 1 1 5705681D
-P 1300 1850
-F 0 "R1" V 1250 2000 50  0000 C CNN
-F 1 "20" V 1300 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1230 1850 50  0001 C CNN
-F 3 "" H 1300 1850 50  0000 C CNN
-	1    1300 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L R R2
-U 1 1 570568EE
-P 1300 2050
-F 0 "R2" V 1250 2200 50  0000 C CNN
-F 1 "20" V 1300 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1230 2050 50  0001 C CNN
-F 3 "" H 1300 2050 50  0000 C CNN
-	1    1300 2050
-	0    1    1    0   
-$EndComp
-Text Notes 600  2150 0    60   ~ 0
-SWCLK\nGND\nSWDIO\nNRST
+Text Notes 600  2300 0    60   ~ 0
+SWCLK\nGND\nSWDIO\nNRST\nVTRG
 $Comp
 L GND #PWR02
 U 1 1 57056C83
@@ -481,11 +448,11 @@ F 3 "" H 3000 5550 50  0000 C CNN
 $EndComp
 Text Notes 1650 5350 0    60   ~ 0
 CAN Terminator (optional)
-Text GLabel 1450 1850 2    60   Input ~ 0
+Text GLabel 1450 2050 2    60   Input ~ 0
 SW_CLK
 Text GLabel 8550 4450 2    60   Input ~ 0
 SW_CLK
-Text GLabel 1450 2050 2    60   Input ~ 0
+Text GLabel 1450 1850 2    60   Input ~ 0
 SW_DIO
 Text GLabel 8550 4350 2    60   Input ~ 0
 SW_DIO
@@ -650,7 +617,7 @@ U 1 1 571E76C6
 P 9600 3500
 F 0 "P4" H 9677 3492 50  0000 L CNN
 F 1 "CONN_01X04" H 9678 3447 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 9677 3447 50  0001 L CNN
+F 2 "usb_ccb_custom:Pin_Header_Angled_1x04m" H 9677 3447 50  0001 L CNN
 F 3 "" H 9600 3500 50  0000 C CNN
 	1    9600 3500
 	1    0    0    -1  
@@ -687,4 +654,31 @@ Wire Wire Line
 	8550 4050 8850 4050
 Wire Wire Line
 	8850 4050 8850 3650
+$Comp
+L CONN_01X05 P1
+U 1 1 57800591
+P 950 2050
+F 0 "P1" H 869 1711 50  0000 C CNN
+F 1 "CONN_01X05" H 869 1710 50  0001 C CNN
+F 2 "usb_ccb_custom:swd_smd_conn5" H 869 1711 50  0001 C CNN
+F 3 "" H 950 2050 50  0000 C CNN
+	1    950  2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR024
+U 1 1 57800AA2
+P 1150 2250
+F 0 "#PWR024" H 1150 2100 50  0001 C CNN
+F 1 "+3.3V" H 1168 2423 50  0000 C CNN
+F 2 "" H 1150 2250 50  0000 C CNN
+F 3 "" H 1150 2250 50  0000 C CNN
+	1    1150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 2050 1450 2050
+Wire Wire Line
+	1450 1850 1150 1850
+Connection ~ 2700 5550
 $EndSCHEMATC
