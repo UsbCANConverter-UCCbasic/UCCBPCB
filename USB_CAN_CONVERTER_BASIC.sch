@@ -389,7 +389,7 @@ F 1 "PSD2CAN" H 1728 6722 60  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1450 6950 60  0001 C CNN
 F 3 "" H 1450 6950 60  0000 C CNN
 	1    1450 6750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR018

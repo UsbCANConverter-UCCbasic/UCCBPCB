@@ -1,9 +1,9 @@
-(pcb C:\Users\Vostro1440\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
+(pcb C:\Users\PLLUJUR1\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(2016-04-04 BZR 6663, Git 30f5a7a)-product")
+    (host_version "4.0.2-stable")
   )
   (resolution um 10)
   (unit um)
@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  140392 -91820  140392 -106680  167005 -106680  167005 -91820
-            140400 -91821  140392 -91820)
+      (path pcb 0  140392 -92075  140392 -106680  167005 -106680  167005 -92075
+            140400 -92075  140392 -92075)
     )
     (via "Via[0-1]_600:400_um")
     (rule
@@ -37,26 +37,26 @@
       (place U1 151130 -99314 front 0 (PN STM32F042C6Ux))
     )
     (component Resistors_SMD:R_0805
-      (place R3 146050 -93345 front 0 (PN 10k))
-      (place C1 158750 -93218 back 0 (PN 10n))
+      (place R3 145948 -95707.2 front 90 (PN 10k))
+      (place C1 157480 -93319.6 back 0 (PN 10n))
       (place C2 159766 -102108 back 90 (PN 100n))
-      (place C3 157607 -98679 back 270 (PN 10u))
+      (place C3 154178 -102159 back 90 (PN 10u))
       (place C4 157607 -102108 back 90 (PN 10nC))
       (place C7 159004 -101854 front 0 (PN 1uC))
-      (place C8 145796 -99949 front 90 (PN 1uC))
-      (place R4 158750 -95377 back 0 (PN 60R))
+      (place C8 145847 -101194 front 90 (PN 1uC))
+      (place R4 152095 -93319.6 back 180 (PN 60R))
       (place R5 149098 -102108 back 0 (PN 60R))
-      (place C5 159766 -98679 back 270 (PN 100nC))
+      (place C5 151943 -102159 back 90 (PN 100nC))
     )
     (component "TO_SOT_Packages_SMD:SOT-23"
-      (place U2 149352 -96901 back 270 (PN PSD2CAN))
+      (place U2 148996 -97180.4 back 90 (PN PSD2CAN))
       (place U4 158877 -104521 front 180 (PN "MCP1700T-3302E/TT"))
     )
     (component SO:SO
-      (place U3 153924 -98679 back 90 (PN SN65HVD232D))
+      (place U3 156312 -97434.4 back 0 (PN SN65HVD232D))
     )
     (component "TO_SOT_Packages_SMD:SOT-23-6"
-      (place U5 159004 -97647 front 180 (PN "USBLC6-2"))
+      (place U5 158699 -97942.4 front 180 (PN "USBLC6-2"))
     )
     (component Capacitors_SMD:C_0805
       (place L1 159004 -104902 back 180 (PN 30R@100MHz))
@@ -68,18 +68,18 @@
       (place P2 142748 -96520 back 90 (PN CONN_01X02))
     )
     (component usb_ccb_custom:swd_smd_conn5
-      (place P1 152400 -92964 front 0 (PN CONN_01X05))
+      (place P1 152400 -93370.4 front 0 (PN CONN_01X05))
     )
     (component usb_ccb_custom:Pin_Header_Angled_1x04m
       (place P4 155956 -105156 front 270 (PN CONN_01X04))
     )
     (component usb_ccb_custom:1pin
-      (place REF** 142875 -93091 front 0 (PN 1pin))
+      (place REF** 142875 -93218 front 0 (PN 1pin))
     )
     (component usb_ccb_custom:GS2s
-      (place GS1 148971 -93726 back 270 (PN GS2))
+      (place GS1 148742 -93370.4 back 270 (PN GS2))
       (place GS2 149098 -99822 back 90 (PN GS2))
-      (place GS3 157734 -100266 front 270 (PN GS2))
+      (place GS3 157277 -100330 front 270 (PN GS2))
     )
   )
   (library
@@ -435,23 +435,23 @@
     (net "Net-(U1-Pad33)"
       (pins U1-33 U5-4)
     )
-    (net /USART1_TX
-      (pins U1-30 P4-3)
-    )
-    (net /USART1_RX
-      (pins U1-31 P4-4)
-    )
     (net "Net-(GS1-Pad1)"
       (pins R4-1 GS1-1)
     )
     (net "Net-(GS1-Pad2)"
-      (pins U2-2 U3-7 P2-2 GS1-2)
+      (pins U2-1 U3-7 P2-2 GS1-2)
     )
     (net "Net-(GS2-Pad1)"
       (pins R5-2 GS2-1)
     )
     (net "Net-(GS2-Pad2)"
-      (pins U2-1 U3-6 P2-1 GS2-2)
+      (pins U2-2 U3-6 P2-1 GS2-2)
+    )
+    (net /USART_TX
+      (pins U1-12 P4-3)
+    )
+    (net /USART_RX
+      (pins U1-13 P4-4)
     )
     (net "Net-(U1-Pad1)"
       (pins U1-1)
@@ -473,12 +473,6 @@
     )
     (net "Net-(U1-Pad11)"
       (pins U1-11)
-    )
-    (net "Net-(U1-Pad12)"
-      (pins U1-12)
-    )
-    (net "Net-(U1-Pad13)"
-      (pins U1-13)
     )
     (net "Net-(U1-Pad14)"
       (pins U1-14)
@@ -522,6 +516,12 @@
     (net "Net-(U1-Pad29)"
       (pins U1-29)
     )
+    (net "Net-(U1-Pad30)"
+      (pins U1-30)
+    )
+    (net "Net-(U1-Pad31)"
+      (pins U1-31)
+    )
     (net "Net-(U1-Pad38)"
       (pins U1-38)
     )
@@ -543,14 +543,14 @@
     (net "Net-(U1-Pad44)"
       (pins U1-44)
     )
-    (class kicad_default "" +3V3 +5V /USART1_RX /USART1_TX CAN_MOD CAN_RX
-      CAN_TX GND "Net-(C1-Pad2)" "Net-(GS1-Pad1)" "Net-(GS1-Pad2)" "Net-(GS2-Pad1)"
+    (class kicad_default "" +3V3 +5V /USART_RX /USART_TX CAN_MOD CAN_RX CAN_TX
+      GND "Net-(C1-Pad2)" "Net-(GS1-Pad1)" "Net-(GS1-Pad2)" "Net-(GS2-Pad1)"
       "Net-(GS2-Pad2)" "Net-(L1-Pad2)" "Net-(P1-Pad2)" "Net-(P3-Pad2)" "Net-(P3-Pad3)"
-      "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
-      "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
-      "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)"
-      "Net-(U1-Pad22)" "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)"
-      "Net-(U1-Pad28)" "Net-(U1-Pad29)" "Net-(U1-Pad3)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
+      "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)"
+      "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad25)"
+      "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)"
+      "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad31)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
       "Net-(U1-Pad38)" "Net-(U1-Pad39)" "Net-(U1-Pad4)" "Net-(U1-Pad40)" "Net-(U1-Pad41)"
       "Net-(U1-Pad42)" "Net-(U1-Pad43)" "Net-(U1-Pad44)" "Net-(U1-Pad6)" SW_CLK
       SW_DIO
