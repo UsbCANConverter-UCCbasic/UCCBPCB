@@ -1,9 +1,9 @@
-(pcb C:\Users\PLLUJUR1\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
+(pcb C:\Users\Vostro1440\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "4.0.2-stable")
+    (host_version "(2016-04-04 BZR 6663, Git 30f5a7a)-product")
   )
   (resolution um 10)
   (unit um)
@@ -42,7 +42,7 @@
       (place C2 159766 -102108 back 90 (PN 100n))
       (place C3 154178 -102159 back 90 (PN 10u))
       (place C4 157607 -102108 back 90 (PN 10nC))
-      (place C7 159004 -101854 front 0 (PN 1uC))
+      (place C7 158877 -101854 front 0 (PN 1uC))
       (place C8 145847 -101194 front 90 (PN 1uC))
       (place R4 152095 -93319.6 back 180 (PN 60R))
       (place R5 149098 -102108 back 0 (PN 60R))
@@ -393,8 +393,10 @@
       (pins U1-7 R3-1 P1-2)
     )
     (net GND
-      (pins U1-8 U1-23 U1-35 U1-47 C1-1 C2-2 C3-2 C4-2 C7-2 C8-2 U2-3 U3-2 U4-1 C5-2
-        U5-2 L1-1 P3-4 P1-4 P4-2)
+      (pins U1-8 U1-23 U1-35 U1-47 U1-49 U1-49@1 U1-49@2 U1-49@3 U1-49@4 U1-49@5 U1-49@6
+        U1-49@7 U1-49@8 U1-49@9 U1-49@10 U1-49@11 U1-49@12 U1-49@13 U1-49@14 U1-49@15
+        C1-1 C2-2 C3-2 C4-2 C7-2 C8-2 U2-3 U3-2 U4-1 C5-2 U5-2 L1-1 P3-4 P1-4 P4-2
+        REF**-1)
     )
     (net "Net-(C1-Pad2)"
       (pins C1-2 R4-2 R5-1 U3-5)
