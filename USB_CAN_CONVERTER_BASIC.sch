@@ -376,7 +376,7 @@ Text GLabel 3600 6000 2    60   Input ~ 0
 CAN_RX
 Text GLabel 2350 3850 0    60   Input ~ 0
 CAN_RX
-Text GLabel 2350 2250 0    60   Input ~ 0
+Text GLabel 2350 3450 0    60   Input ~ 0
 CAN_MOD
 Text GLabel 2700 6300 0    60   Input ~ 0
 CAN_MOD
@@ -641,15 +641,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 6100 4750 6100
 Wire Wire Line
-	1300 6350 1300 6200
-Wire Wire Line
 	1150 6200 2700 6200
 Wire Wire Line
-	1600 6100 1600 6350
-Wire Wire Line
 	1150 6100 2700 6100
-Connection ~ 1600 6100
-Connection ~ 1300 6200
 Connection ~ 2500 6100
 Connection ~ 1750 6200
 Wire Wire Line
@@ -736,4 +730,10 @@ Wire Wire Line
 	8650 3650 8650 3350
 Wire Wire Line
 	8650 3350 8550 3350
+Wire Wire Line
+	1300 6350 1300 6100
+Connection ~ 1300 6100
+Wire Wire Line
+	1600 6350 1600 6200
+Connection ~ 1600 6200
 $EndSCHEMATC

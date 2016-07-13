@@ -1,9 +1,9 @@
-(pcb C:\Users\Vostro1440\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
+(pcb C:\Users\PLLUJUR1\Documents\GitHub\PCB\USB_CAN_CONVERTER_BASIC.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(2016-04-04 BZR 6663, Git 30f5a7a)-product")
+    (host_version "4.0.2-stable")
   )
   (resolution um 10)
   (unit um)
@@ -37,23 +37,23 @@
       (place U1 151130 -99314 front 0 (PN STM32F042C6Ux))
     )
     (component Resistors_SMD:R_0805
-      (place R3 145948 -95707.2 front 90 (PN 10k))
-      (place C1 157480 -93319.6 back 0 (PN 10n))
+      (place R3 145999 -94335.6 front 90 (PN 10k))
+      (place C1 157988 -93345 back 0 (PN 10n))
       (place C2 159766 -102108 back 90 (PN 100n))
       (place C3 154178 -102159 back 90 (PN 10u))
       (place C4 157607 -102108 back 90 (PN 10nC))
       (place C7 158877 -101854 front 0 (PN 1uC))
-      (place C8 145847 -101194 front 90 (PN 1uC))
-      (place R4 152095 -93319.6 back 180 (PN 60R))
-      (place R5 149098 -102108 back 0 (PN 60R))
+      (place C8 145948 -100736 front 90 (PN 1uC))
+      (place R4 149860 -93370.4 back 180 (PN 60R))
+      (place R5 149149 -102006 back 0 (PN 60R))
       (place C5 151943 -102159 back 90 (PN 100nC))
     )
     (component "TO_SOT_Packages_SMD:SOT-23"
-      (place U2 148996 -97180.4 back 90 (PN PSD2CAN))
+      (place U2 149301 -97332.8 back 90 (PN PSD2CAN))
       (place U4 158877 -104521 front 180 (PN "MCP1700T-3302E/TT"))
     )
     (component SO:SO
-      (place U3 156312 -97434.4 back 0 (PN SN65HVD232D))
+      (place U3 156362 -97739.2 back 0 (PN SN65HVD232D))
     )
     (component "TO_SOT_Packages_SMD:SOT-23-6"
       (place U5 158699 -97942.4 front 180 (PN "USBLC6-2"))
@@ -77,8 +77,8 @@
       (place REF** 142875 -93218 front 0 (PN 1pin))
     )
     (component usb_ccb_custom:GS2s
-      (place GS1 148742 -93370.4 back 270 (PN GS2))
-      (place GS2 149098 -99822 back 90 (PN GS2))
+      (place GS1 146355 -93268.8 back 270 (PN GS2))
+      (place GS2 148590 -99974.4 back 270 (PN GS2))
       (place GS3 157277 -100330 front 270 (PN GS2))
     )
   )
@@ -420,7 +420,7 @@
       (pins U5-3 P3-3)
     )
     (net CAN_MOD
-      (pins U1-5 U3-8)
+      (pins U1-40 U3-8)
     )
     (net CAN_RX
       (pins U1-45 U3-4)
@@ -530,9 +530,6 @@
     (net "Net-(U1-Pad39)"
       (pins U1-39)
     )
-    (net "Net-(U1-Pad40)"
-      (pins U1-40)
-    )
     (net "Net-(U1-Pad41)"
       (pins U1-41)
     )
@@ -545,6 +542,9 @@
     (net "Net-(U1-Pad44)"
       (pins U1-44)
     )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
     (class kicad_default "" +3V3 +5V /USART_RX /USART_TX CAN_MOD CAN_RX CAN_TX
       GND "Net-(C1-Pad2)" "Net-(GS1-Pad1)" "Net-(GS1-Pad2)" "Net-(GS2-Pad1)"
       "Net-(GS2-Pad2)" "Net-(L1-Pad2)" "Net-(P1-Pad2)" "Net-(P3-Pad2)" "Net-(P3-Pad3)"
@@ -554,8 +554,8 @@
       "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)"
       "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad31)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
       "Net-(U1-Pad38)" "Net-(U1-Pad39)" "Net-(U1-Pad4)" "Net-(U1-Pad40)" "Net-(U1-Pad41)"
-      "Net-(U1-Pad42)" "Net-(U1-Pad43)" "Net-(U1-Pad44)" "Net-(U1-Pad6)" SW_CLK
-      SW_DIO
+      "Net-(U1-Pad42)" "Net-(U1-Pad43)" "Net-(U1-Pad44)" "Net-(U1-Pad5)" "Net-(U1-Pad6)"
+      SW_CLK SW_DIO
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
@@ -566,5 +566,16 @@
     )
   )
   (wiring
+    (wire (path F.Cu 250  149199 -101245  149199 -97382.8)(net GND)(type protect))
+    (wire (path F.Cu 250  153061 -101245  149199 -101245)(net GND)(type protect))
+    (wire (path F.Cu 250  149199 -99957.8  153061 -99957.8)(net GND)(type protect))
+    (wire (path F.Cu 250  153061 -98670.2  149199 -98670.2)(net GND)(type protect))
+    (wire (path F.Cu 250  149199 -97382.8  153061 -97382.8)(net GND)(type protect))
+    (wire (path F.Cu 250  154530 -97064  153380 -97064  153061 -97382.8)(net GND)(type protect))
+    (wire (path F.Cu 250  148880 -95914  148880 -97064  149199 -97382.8)(net GND)(type protect))
+    (wire (path F.Cu 250  145948 -99786.4  146675 -99786.4)(net GND)(type protect))
+    (wire (path F.Cu 250  146952 -100064  149092 -100064)(net GND)(type protect))
+    (wire (path F.Cu 250  146675 -99786.4  146952 -100064)(net GND)(type protect))
+    (wire (path F.Cu 250  149092 -100064  149199 -99957.8)(net GND)(type protect))
   )
 )
