@@ -79,7 +79,7 @@ F 3 "" H 1950 1700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 600  2300 0    60   ~ 0
-SWCLK\nGND\nSWDIO\nNRST\nVTRG
+SWDIO\nGND\nSWCLK\nNRST\nVTRG
 $Comp
 L GND #PWR02
 U 1 1 57056C83
