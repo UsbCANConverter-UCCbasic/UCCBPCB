@@ -736,4 +736,6 @@ Connection ~ 1300 6100
 Wire Wire Line
 	1600 6350 1600 6200
 Connection ~ 1600 6200
+Text Notes 7400 7500 0    60   ~ 0
+ucandevices.pl UCCB1.1
 $EndSCHEMATC
