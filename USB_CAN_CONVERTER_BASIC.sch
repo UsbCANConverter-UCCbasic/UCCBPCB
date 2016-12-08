@@ -54,6 +54,10 @@ F 0 "U1" H 2450 4875 50  0000 L BNN
 F 1 "STM32F042C6Ux" H 8450 4875 50  0000 R BNN
 F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 8450 4825 50  0000 R TNN
 F 3 "" H 5450 3150 50  0000 C CNN
+F 4 "STM32F042C6U6" H 5450 3150 60  0001 C CNN "MFG Part Num"
+F 5 "ST" H 5450 3150 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/pl/details/stm32f042c6u6/mikrokontrolery-st/st-microelectronics/" H 5450 3150 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 5450 3150 60  0001 C CNN "1st Disrtib PN"
 	1    5450 3150
 	1    0    0    -1  
 $EndComp
@@ -76,6 +80,11 @@ F 0 "R3" H 1880 1654 50  0000 R CNN
 F 1 "10k" H 1880 1745 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805" H 1880 1791 50  0001 R CNN
 F 3 "" H 1950 1700 50  0000 C CNN
+F 4 "CRCW080510K0FKEA" H 1950 1700 60  0001 C CNN "MFG Part Num"
+F 5 "VISHAY" H 1950 1700 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/crcw080510k0fkea/0805-smd-resistors/vishay/" H 1950 1700 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 1950 1700 60  0001 C CNN "1st Disrtib PN"
+F 8 "10K 0.125W 805" H 1950 1700 60  0001 C CNN "Description"
 	1    1950 1700
 	-1   0    0    1   
 $EndComp
@@ -100,6 +109,11 @@ F 0 "P3" V 10823 4444 50  0000 L CNN
 F 1 "USB_A" V 10868 4444 50  0001 L CNN
 F 2 "usb_ccb_custom:USB_A_DS1097R" V 10750 4150 50  0001 C CNN
 F 3 "" V 10750 4150 50  0000 C CNN
+F 4 "DS1097-BN0" H 10800 4250 60  0001 C CNN "MFG Part Num"
+F 5 "CONNFLY" H 10800 4250 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/usba-lp/usb-ieee1394-connectors/connfly/ds1097-bn0/" H 10800 4250 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 10800 4250 60  0001 C CNN "1st Disrtib PN"
+F 8 "Plug; USB A; THT; angled 90°; 1.5A; Contacts: phosphor bronze; 500" H 10800 4250 60  0001 C CNN "Description"
 	1    10800 4250
 	0    1    1    0   
 $EndComp
@@ -133,6 +147,11 @@ F 0 "P2" H 869 5961 50  0000 C CNN
 F 1 "CONN_01X02" H 869 5960 50  0001 C CNN
 F 2 "Connect:AK300-2" H 950 6150 50  0001 C CNN
 F 3 "" H 950 6150 50  0000 C CNN
+F 4 "DG126-5.0-2P14" H 950 6150 60  0001 C CNN "MFG Part Num"
+F 5 "DEGSON ELECTRONICS" H 950 6150 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/dg126-5.0-2p14/terminal-blocks-pcb-mount/degson-electronics/dg126-50-02p-14-00a/" H 950 6150 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 950 6150 60  0001 C CNN "1st Disrtib PN"
+F 8 "Terminal block; 5mm; angled; 0.5÷2.5mm2; ways:2; H:10.9mm; green" H 950 6150 60  0001 C CNN "Description"
 	1    950  6150
 	-1   0    0    -1  
 $EndComp
@@ -190,6 +209,11 @@ F 0 "C4" H 9215 1746 50  0000 L CNN
 F 1 "10nC" H 9215 1655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 9138 1550 50  0001 C CNN
 F 3 "" H 9100 1700 50  0000 C CNN
+F 4 "08053C103KAT2A" H 9100 1700 60  0001 C CNN "MFG Part Num"
+F 5 "AVX" H 9100 1700 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/" H 9100 1700 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 9100 1700 60  0001 C CNN "1st Disrtib PN"
+F 8 "10nF 25V 805" H 9100 1700 60  0001 C CNN "Description"
 	1    9100 1700
 	1    0    0    -1  
 $EndComp
@@ -201,6 +225,11 @@ F 0 "C5" H 9615 1746 50  0000 L CNN
 F 1 "100nC" H 9615 1655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 9538 1550 50  0001 C CNN
 F 3 "" H 9500 1700 50  0000 C CNN
+F 4 "C0805C104K3RAC" H 9500 1700 60  0001 C CNN "MFG Part Num"
+F 5 "KEMET" H 9500 1700 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/" H 9500 1700 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 9500 1700 60  0001 C CNN "1st Disrtib PN"
+F 8 "100nF 25V 805" H 9500 1700 60  0001 C CNN "Description"
 	1    9500 1700
 	1    0    0    -1  
 $EndComp
@@ -256,6 +285,11 @@ F 0 "C8" H 10665 2846 50  0000 L CNN
 F 1 "1uC" H 10665 2755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 10588 2650 50  0001 C CNN
 F 3 "" H 10550 2800 50  0000 C CNN
+F 4 "08053G105ZAT2A" H 10550 2800 60  0001 C CNN "MFG Part Num"
+F 5 "AVX" H 10550 2800 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/08053g105zat2a/0805-mlcc-smd-capacitors/avx/" H 10550 2800 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 10550 2800 60  0001 C CNN "1st Disrtib PN"
+F 8 "1uF 25V 805" H 10550 2800 60  0001 C CNN "Description"
 	1    10550 2800
 	1    0    0    -1  
 $EndComp
@@ -267,6 +301,11 @@ F 0 "C7" H 9550 2850 50  0000 L CNN
 F 1 "1uC" H 9500 2750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 9788 2650 50  0001 C CNN
 F 3 "" H 9750 2800 50  0000 C CNN
+F 4 "08053G105ZAT2A" H 9750 2800 60  0001 C CNN "MFG Part Num"
+F 5 "AVX" H 9750 2800 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/08053g105zat2a/0805-mlcc-smd-capacitors/avx/" H 9750 2800 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 9750 2800 60  0001 C CNN "1st Disrtib PN"
+F 8 "1uF 25V 805" H 9750 2800 60  0001 C CNN "Description"
 	1    9750 2800
 	1    0    0    -1  
 $EndComp
@@ -289,6 +328,10 @@ F 0 "U4" H 10000 2900 60  0000 C CNN
 F 1 "MCP1700T-3302E/TT" H 10000 2350 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 10200 2404 60  0001 C CNN
 F 3 "" H 10150 2700 60  0000 C CNN
+F 4 "MCP1700T-3302E/TT" H 10150 2700 60  0001 C CNN "MFG Part Num"
+F 5 "MICROCHIP" H 10150 2700 60  0001 C CNN "MFG"
+F 6 "http://pl.farnell.com/microchip/mcp1700t-3302e-tt/ic-v-reg-ldo-250ma-smd-sot-23/dp/1296592?CMP=GRHB-FINDCHIPS" H 10150 2700 60  0001 C CNN "1st Disrtib Link"
+F 7 "Farnell" H 10150 2700 60  0001 C CNN "1st Disrtib PN"
 	1    10150 2700
 	1    0    0    -1  
 $EndComp
@@ -300,6 +343,10 @@ F 0 "U3" H 3150 6587 60  0000 C CNN
 F 1 "TCAN332" H 3150 6481 60  0000 C CNN
 F 2 "SO:SO" H 3150 6481 60  0001 C CNN
 F 3 "" H 3000 6050 60  0000 C CNN
+F 4 "TCAN332DR" H 3150 6150 60  0001 C CNN "MFG Part Num"
+F 5 "TI" H 3150 6150 60  0001 C CNN "MFG"
+F 6 "http://pl.farnell.com/texas-instruments/tcan332dr/can-transceiver-5mbps-soic-8/dp/2526582?CMP=GRHB-FINDCHIPS" H 3150 6150 60  0001 C CNN "1st Disrtib Link"
+F 7 "Farnell" H 3150 6150 60  0001 C CNN "1st Disrtib PN"
 	1    3150 6150
 	-1   0    0    1   
 $EndComp
@@ -330,9 +377,14 @@ L C C3
 U 1 1 5708AC0C
 P 4750 6250
 F 0 "C3" H 4550 6250 50  0000 L CNN
-F 1 "10u" H 4600 6150 50  0000 L CNN
+F 1 "10n" H 4600 6150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 4788 6100 50  0001 C CNN
 F 3 "" H 4750 6250 50  0000 C CNN
+F 4 "08053C103KAT2A" H 4750 6250 60  0001 C CNN "MFG Part Num"
+F 5 "AVX" H 4750 6250 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/" H 4750 6250 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 4750 6250 60  0001 C CNN "1st Disrtib PN"
+F 8 "10nF 25V 805" H 4750 6250 60  0001 C CNN "Description"
 	1    4750 6250
 	1    0    0    -1  
 $EndComp
@@ -344,6 +396,11 @@ F 0 "C2" H 4250 6250 50  0000 L CNN
 F 1 "100n" H 4250 6150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 4488 6100 50  0001 C CNN
 F 3 "" H 4450 6250 50  0000 C CNN
+F 4 "C0805C104K3RAC" H 4450 6250 60  0001 C CNN "MFG Part Num"
+F 5 "KEMET" H 4450 6250 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/" H 4450 6250 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 4450 6250 60  0001 C CNN "1st Disrtib PN"
+F 8 "100nF 25V 805" H 4450 6250 60  0001 C CNN "Description"
 	1    4450 6250
 	1    0    0    -1  
 $EndComp
@@ -386,9 +443,13 @@ L PSD2CAN U2
 U 1 1 5708D55A
 P 1450 6750
 F 0 "U2" H 1728 6828 60  0000 L CNN
-F 1 "PSD2CAN" H 1728 6722 60  0000 L CNN
+F 1 "PESD2CAN" H 1728 6722 60  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1450 6950 60  0001 C CNN
 F 3 "" H 1450 6950 60  0000 C CNN
+F 4 "PESD2CAN.215" H 1450 6750 60  0001 C CNN "MFG Part Num"
+F 5 "NXP" H 1450 6750 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/pesd2can/bidirectional-smd-transil-diodes/nxp/pesd2can215/?utm_source=findchips.com&utm_medium=cpc&utm_campaign=compare-2016-12" H 1450 6750 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 1450 6750 60  0001 C CNN "1st Disrtib PN"
 	1    1450 6750
 	-1   0    0    -1  
 $EndComp
@@ -408,9 +469,14 @@ L R R4
 U 1 1 5708DAC6
 P 1900 5650
 F 0 "R4" V 2000 5700 50  0000 R CNN
-F 1 "60R" V 1800 5700 50  0000 R CNN
+F 1 "120R" V 1800 5700 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805" H 1830 5741 50  0001 R CNN
 F 3 "" H 1900 5650 50  0000 C CNN
+F 4 "SMD0805-120R" H 1900 5650 60  0001 C CNN "MFG Part Num"
+F 5 "ROYAL OHM" H 1900 5650 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/smd0805-120r/0805-smd-resistors/royal-ohm/0805s8j0121t5e/" H 1900 5650 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 1900 5650 60  0001 C CNN "1st Disrtib PN"
+F 8 "120R 0.125W 805" H 1900 5650 60  0001 C CNN "Description"
 	1    1900 5650
 	0    -1   -1   0   
 $EndComp
@@ -429,9 +495,13 @@ L USBLC6-2 U5
 U 1 1 5716715E
 P 9750 4300
 F 0 "U5" H 9750 4837 60  0000 C CNN
-F 1 "USBLC6-2" H 9750 4731 60  0000 C CNN
+F 1 "USBLC6-2SC6" H 9750 4731 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 9600 4200 60  0001 C CNN
 F 3 "" H 9600 4200 60  0000 C CNN
+F 4 "USBLC6-2SC6" H 9750 4300 60  0001 C CNN "MFG Part Num"
+F 5 "ST" H 9750 4300 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/usblc6-2sc6/supervisor-circuits/st-microelectronics/" H 9750 4300 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 9750 4300 60  0001 C CNN "1st Disrtib PN"
 	1    9750 4300
 	-1   0    0    -1  
 $EndComp
@@ -465,6 +535,11 @@ F 0 "L1" V 10750 4550 50  0000 C CNN
 F 1 "30R@100MHz" V 10650 4350 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 10700 4550 50  0001 C CNN
 F 3 "" H 10700 4550 50  0000 C CNN
+F 4 "DL0805-0.82" H 10700 4550 60  0001 C CNN "MFG Part Num"
+F 5 "FERROCORE" H 10700 4550 60  0001 C CNN "MFG"
+F 6 "http://www.tme.eu/en/details/dl0805-0.82/smd-0805-inductors/ferrocore/" H 10700 4550 60  0001 C CNN "1st Disrtib Link"
+F 7 "TME" H 10700 4550 60  0001 C CNN "1st Disrtib PN"
+F 8 "0.82uH 150mA 0805" H 10700 4550 60  0001 C CNN "Description"
 	1    10700 4550
 	0    -1   -1   0   
 $EndComp
@@ -585,17 +660,6 @@ F 3 "" H 9600 750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 GS2
-U 1 1 57813F91
-P 2500 5850
-F 0 "GS2" H 2568 5850 50  0000 L CNN
-F 1 "GS2" H 2568 5850 50  0001 L CNN
-F 2 "Connect:GS2" H 2568 5805 50  0001 L CNN
-F 3 "" H 2500 5850 50  0000 C CNN
-	1    2500 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L GS2 GS1
 U 1 1 5781392F
 P 1750 5850
@@ -647,7 +711,6 @@ Wire Wire Line
 	1150 6200 2700 6200
 Wire Wire Line
 	1150 6100 2700 6100
-Connection ~ 2500 6100
 Connection ~ 1750 6200
 Wire Notes Line
 	1600 5450 1600 5850
@@ -701,11 +764,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1850 1150 1850
 Wire Wire Line
-	2050 5650 2200 5650
-Wire Wire Line
 	1750 6050 1750 6200
-Wire Wire Line
-	2500 6050 2500 6100
 Wire Wire Line
 	8750 3550 8750 3250
 Wire Wire Line
@@ -720,46 +779,13 @@ Connection ~ 1300 6100
 Wire Wire Line
 	1600 6350 1600 6200
 Connection ~ 1600 6200
-Wire Wire Line
-	2150 5550 2150 5650
-Connection ~ 2150 5650
-$Comp
-L R R5
-U 1 1 5708DE1C
-P 2350 5650
-F 0 "R5" V 2450 5700 50  0000 R CNN
-F 1 "60R" V 2250 5700 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805" H 2280 5741 50  0001 R CNN
-F 3 "" H 2350 5650 50  0000 C CNN
-	1    2350 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR026
-U 1 1 5708E325
-P 3000 5550
-F 0 "#PWR026" H 3000 5300 50  0001 C CNN
-F 1 "GND" V 3008 5422 50  0000 R CNN
-F 2 "" H 3000 5550 50  0000 C CNN
-F 3 "" H 3000 5550 50  0000 C CNN
-	1    3000 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 5708E07A
-P 2850 5550
-F 0 "C1" V 2750 5400 50  0000 L CNN
-F 1 "10n" V 3000 5450 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" H 2888 5400 50  0001 C CNN
-F 3 "" H 2850 5550 50  0000 C CNN
-	1    2850 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 5550 2700 5550
 Text GLabel 2700 6000 0    60   Input ~ 0
 CAN_MOD2
 Text GLabel 8550 3950 2    60   Input ~ 0
 CAN_MOD2
+Wire Wire Line
+	2050 5650 2100 5650
+Wire Wire Line
+	2100 5650 2100 6100
+Connection ~ 2100 6100
 $EndSCHEMATC

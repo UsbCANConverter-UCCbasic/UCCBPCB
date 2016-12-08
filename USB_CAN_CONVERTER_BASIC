@@ -1,0 +1,23 @@
+Reference, Value, Footprint, Datasheet, MFG Part Num, MFG, 1st Disrtib Link, 1st Disrtib PN, Description
+U1,STM32F042C6Ux,Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm,,STM32F042C6U6,ST,http://www.tme.eu/pl/details/stm32f042c6u6/mikrokontrolery-st/st-microelectronics/,TME,
+R3,10k,Resistors_SMD:R_0805,,CRCW080510K0FKEA,VISHAY,http://www.tme.eu/en/details/crcw080510k0fkea/0805-smd-resistors/vishay/,TME,10K 0.125W 805
+P3,USB_A,usb_ccb_custom:USB_A_DS1097R,,DS1097-BN0,CONNFLY,http://www.tme.eu/en/details/usba-lp/usb-ieee1394-connectors/connfly/ds1097-bn0/,TME,Plug; USB A; THT; angled 90°; 1.5A; Contacts: phosphor bronze; 500
+P2,CONN_01X02,Connect:AK300-2,,DG126-5.0-2P14,DEGSON ELECTRONICS,http://www.tme.eu/en/details/dg126-5.0-2p14/terminal-blocks-pcb-mount/degson-electronics/dg126-50-02p-14-00a/,TME,Terminal block; 5mm; angled; 0.5÷2.5mm2; ways:2; H:10.9mm; green
+C4,10nC,Resistors_SMD:R_0805,,08053C103KAT2A,AVX,http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/,TME,10nF 25V 805
+C5,100nC,Resistors_SMD:R_0805_HandSoldering,,C0805C104K3RAC,KEMET,http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/,TME,100nF 25V 805
+C8,1uC,Resistors_SMD:R_0805,,08053G105ZAT2A,AVX,http://www.tme.eu/en/details/08053g105zat2a/0805-mlcc-smd-capacitors/avx/,TME,1uF 25V 805
+C7,1uC,Resistors_SMD:R_0805,,08053G105ZAT2A,AVX,http://www.tme.eu/en/details/08053g105zat2a/0805-mlcc-smd-capacitors/avx/,TME,1uF 25V 805
+U4,MCP1700T-3302E/TT,TO_SOT_Packages_SMD:SOT-23,,MCP1700T-3302E/TT,MICROCHIP,http://pl.farnell.com/microchip/mcp1700t-3302e-tt/ic-v-reg-ldo-250ma-smd-sot-23/dp/1296592?CMP=GRHB-FINDCHIPS,Farnell,
+U3,TCAN332,SO:SO,,TCAN332DR,TI,http://pl.farnell.com/texas-instruments/tcan332dr/can-transceiver-5mbps-soic-8/dp/2526582?CMP=GRHB-FINDCHIPS,Farnell,
+C3,10n,Resistors_SMD:R_0805,,08053C103KAT2A,AVX,http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/,TME,10nF 25V 805
+C2,100n,Resistors_SMD:R_0805,,C0805C104K3RAC,KEMET,http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/,TME,100nF 25V 805
+U2,PESD2CAN,TO_SOT_Packages_SMD:SOT-23,,PESD2CAN.215,NXP,http://www.tme.eu/en/details/pesd2can/bidirectional-smd-transil-diodes/nxp/pesd2can215/?utm_source=findchips.com&utm_medium=cpc&utm_campaign=compare-2016-12,TME,
+R4,120R,Resistors_SMD:R_0805,,SMD0805-120R,ROYAL OHM,http://www.tme.eu/en/details/smd0805-120r/0805-smd-resistors/royal-ohm/0805s8j0121t5e/,TME,120R 0.125W 805
+U5,USBLC6-2SC6,TO_SOT_Packages_SMD:SOT-23-6,,USBLC6-2SC6,ST,http://www.tme.eu/en/details/usblc6-2sc6/supervisor-circuits/st-microelectronics/,TME,
+L1,30R@100MHz,Capacitors_SMD:C_0805,,DL0805-0.82,FERROCORE,http://www.tme.eu/en/details/dl0805-0.82/smd-0805-inductors/ferrocore/,TME,0.82uH 150mA 0805
+P4,CONN_01X04,usb_ccb_custom:Pin_Header_Angled_1x04m,
+P1,CONN_01X05,usb_ccb_custom:swd_smd_conn5,
+GS3,GS2,Connect:GS2,
+F1,fiducial,Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop,
+F2,fiducial,Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom,
+GS1,GS2,Connect:GS2,
