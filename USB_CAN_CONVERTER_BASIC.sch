@@ -52,7 +52,7 @@ U 1 1 570419FA
 P 5450 3150
 F 0 "U1" H 2450 4875 50  0000 L BNN
 F 1 "STM32F042C6Ux" H 8450 4875 50  0000 R BNN
-F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 8450 4825 50  0000 R TNN
+F 2 "usb_ccb_custom:QFN-48-1EP_7x7mm_Pitch0.5mm" H 8450 4825 50  0000 R TNN
 F 3 "" H 5450 3150 50  0000 C CNN
 F 4 "STM32F042C6U6" H 5450 3150 60  0001 C CNN "MFG Part Num"
 F 5 "ST" H 5450 3150 60  0001 C CNN "MFG"
@@ -84,7 +84,7 @@ F 4 "CRCW080510K0FKEA" H 1950 1700 60  0001 C CNN "MFG Part Num"
 F 5 "VISHAY" H 1950 1700 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/crcw080510k0fkea/0805-smd-resistors/vishay/" H 1950 1700 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 1950 1700 60  0001 C CNN "1st Disrtib PN"
-F 8 "10K 0.125W 805" H 1950 1700 60  0001 C CNN "Description"
+F 8 "10K 0.125W 805 10%" H 1950 1700 60  0001 C CNN "Description"
 	1    1950 1700
 	-1   0    0    1   
 $EndComp
@@ -113,7 +113,7 @@ F 4 "DS1097-BN0" H 10800 4250 60  0001 C CNN "MFG Part Num"
 F 5 "CONNFLY" H 10800 4250 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/usba-lp/usb-ieee1394-connectors/connfly/ds1097-bn0/" H 10800 4250 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 10800 4250 60  0001 C CNN "1st Disrtib PN"
-F 8 "Plug; USB A; THT; angled 90°; 1.5A; Contacts: phosphor bronze; 500" H 10800 4250 60  0001 C CNN "Description"
+F 8 "Plug USB A THT angled 90° 1.5A Contacts: phosphor bronze 500" H 10800 4250 60  0001 C CNN "Description"
 	1    10800 4250
 	0    1    1    0   
 $EndComp
@@ -151,7 +151,7 @@ F 4 "DG126-5.0-2P14" H 950 6150 60  0001 C CNN "MFG Part Num"
 F 5 "DEGSON ELECTRONICS" H 950 6150 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/dg126-5.0-2p14/terminal-blocks-pcb-mount/degson-electronics/dg126-50-02p-14-00a/" H 950 6150 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 950 6150 60  0001 C CNN "1st Disrtib PN"
-F 8 "Terminal block; 5mm; angled; 0.5÷2.5mm2; ways:2; H:10.9mm; green" H 950 6150 60  0001 C CNN "Description"
+F 8 "Terminal block 5mm angled 0.5÷2.5mm2 ways:2 H:10.9mm green" H 950 6150 60  0001 C CNN "Description"
 	1    950  6150
 	-1   0    0    -1  
 $EndComp
@@ -206,14 +206,14 @@ L C C4
 U 1 1 5706EB05
 P 9100 1700
 F 0 "C4" H 9215 1746 50  0000 L CNN
-F 1 "10nC" H 9215 1655 50  0000 L CNN
+F 1 "10n" H 9215 1655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 9138 1550 50  0001 C CNN
 F 3 "" H 9100 1700 50  0000 C CNN
 F 4 "08053C103KAT2A" H 9100 1700 60  0001 C CNN "MFG Part Num"
 F 5 "AVX" H 9100 1700 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/" H 9100 1700 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 9100 1700 60  0001 C CNN "1st Disrtib PN"
-F 8 "10nF 25V 805" H 9100 1700 60  0001 C CNN "Description"
+F 8 "10nF 25V 805 10%" H 9100 1700 60  0001 C CNN "Description"
 	1    9100 1700
 	1    0    0    -1  
 $EndComp
@@ -222,14 +222,14 @@ L C C5
 U 1 1 5706ED0B
 P 9500 1700
 F 0 "C5" H 9615 1746 50  0000 L CNN
-F 1 "100nC" H 9615 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9538 1550 50  0001 C CNN
+F 1 "100n" H 9615 1655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 9538 1550 50  0001 C CNN
 F 3 "" H 9500 1700 50  0000 C CNN
 F 4 "C0805C104K3RAC" H 9500 1700 60  0001 C CNN "MFG Part Num"
 F 5 "KEMET" H 9500 1700 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/" H 9500 1700 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 9500 1700 60  0001 C CNN "1st Disrtib PN"
-F 8 "100nF 25V 805" H 9500 1700 60  0001 C CNN "Description"
+F 8 "100nF 25V 805 10%" H 9500 1700 60  0001 C CNN "Description"
 	1    9500 1700
 	1    0    0    -1  
 $EndComp
@@ -282,7 +282,7 @@ L C C8
 U 1 1 5706F1F3
 P 10550 2800
 F 0 "C8" H 10665 2846 50  0000 L CNN
-F 1 "1uC" H 10665 2755 50  0000 L CNN
+F 1 "1u" H 10665 2755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 10588 2650 50  0001 C CNN
 F 3 "" H 10550 2800 50  0000 C CNN
 F 4 "08053G105ZAT2A" H 10550 2800 60  0001 C CNN "MFG Part Num"
@@ -298,7 +298,7 @@ L C C7
 U 1 1 5706F46D
 P 9750 2800
 F 0 "C7" H 9550 2850 50  0000 L CNN
-F 1 "1uC" H 9500 2750 50  0000 L CNN
+F 1 "1u" H 9500 2750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 9788 2650 50  0001 C CNN
 F 3 "" H 9750 2800 50  0000 C CNN
 F 4 "08053G105ZAT2A" H 9750 2800 60  0001 C CNN "MFG Part Num"
@@ -384,7 +384,7 @@ F 4 "08053C103KAT2A" H 4750 6250 60  0001 C CNN "MFG Part Num"
 F 5 "AVX" H 4750 6250 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/08053c103kat2a/0805-mlcc-smd-capacitors/avx/" H 4750 6250 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 4750 6250 60  0001 C CNN "1st Disrtib PN"
-F 8 "10nF 25V 805" H 4750 6250 60  0001 C CNN "Description"
+F 8 "10nF 25V 805 10%" H 4750 6250 60  0001 C CNN "Description"
 	1    4750 6250
 	1    0    0    -1  
 $EndComp
@@ -400,7 +400,7 @@ F 4 "C0805C104K3RAC" H 4450 6250 60  0001 C CNN "MFG Part Num"
 F 5 "KEMET" H 4450 6250 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/c0805c104k3rac/0805-mlcc-smd-capacitors/kemet/c0805c104k3ractu/" H 4450 6250 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 4450 6250 60  0001 C CNN "1st Disrtib PN"
-F 8 "100nF 25V 805" H 4450 6250 60  0001 C CNN "Description"
+F 8 "100nF 25V 805 10%" H 4450 6250 60  0001 C CNN "Description"
 	1    4450 6250
 	1    0    0    -1  
 $EndComp
@@ -476,7 +476,7 @@ F 4 "SMD0805-120R" H 1900 5650 60  0001 C CNN "MFG Part Num"
 F 5 "ROYAL OHM" H 1900 5650 60  0001 C CNN "MFG"
 F 6 "http://www.tme.eu/en/details/smd0805-120r/0805-smd-resistors/royal-ohm/0805s8j0121t5e/" H 1900 5650 60  0001 C CNN "1st Disrtib Link"
 F 7 "TME" H 1900 5650 60  0001 C CNN "1st Disrtib PN"
-F 8 "120R 0.125W 805" H 1900 5650 60  0001 C CNN "Description"
+F 8 "120R 0.125W 805 5%" H 1900 5650 60  0001 C CNN "Description"
 	1    1900 5650
 	0    -1   -1   0   
 $EndComp
