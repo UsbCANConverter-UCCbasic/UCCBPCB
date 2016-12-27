@@ -1,12 +1,12 @@
-### Module positions - created on 12/09/16 08:26:48 ###
+### Module positions - created on 12/27/16 16:56:56 ###
 ### Printed by Pcbnew version kicad 4.0.4-stable
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                           PosX       PosY       Rot  Side
-C7        1uC                R_0805                        158.8770  -101.8540    0.0000  top
-C8        1uC                R_0805                        145.9480  -100.7360   90.0000  top
+C7        1u                 C_0805                        158.8770  -101.8540    0.0000  top
+C8        1u                 C_0805                        145.9480  -100.4000   90.0000  top
 R3        10k                R_0805                        145.9990   -94.3356   90.0000  top
 U1        STM32F042C6Ux      QFN-48-1EP_7x7mm_Pitch0.5mm   151.1300   -99.3140    0.0000  top
 U4        MCP1700T-3302E/TT  SOT-23                        158.8770  -104.5210  180.0000  top
-U5        USBLC6-2           SOT-23-6                      158.6990   -97.9424  180.0000  top
+U5        USBLC6-2SC6        SOT-23-6                      158.6990   -97.9424  180.0000  top
 ## End

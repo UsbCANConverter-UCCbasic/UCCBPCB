@@ -1,14 +1,14 @@
-### Module positions - created on 12/09/16 08:26:48 ###
+### Module positions - created on 12/27/16 16:56:56 ###
 ### Printed by Pcbnew version kicad 4.0.4-stable
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val         Package                PosX       PosY       Rot  Side
-C2        100n        R_0805             159.7660  -102.1080  270.0000  bottom
-C3        10u         R_0805             154.1780  -102.1590  270.0000  bottom
-C4        10nC        R_0805             157.6070  -102.1080  270.0000  bottom
-C5        100nC       R_0805             151.9430  -102.1590  270.0000  bottom
-L1        30R@100MHz  C_0805             159.0040  -104.9020    0.0000  bottom
-R4        60R         R_0402             148.1000   -99.2000  270.0000  bottom
-U2        PSD2CAN     SOT-23             150.5500   -97.7500   90.0000  bottom
-U3        TCAN332     SO                 156.3620   -97.7392  180.0000  bottom
+C2        100n        C_0805             159.7660  -102.2000  270.0000  bottom
+C3        10n         C_0805             157.5000  -102.2000  270.0000  bottom
+C4        10n         C_0805             154.1780  -102.1590  270.0000  bottom
+C5        100n        C_0805             151.9430  -102.1590  270.0000  bottom
+L1        30R@100MHz  C_0805             159.0000  -105.2000    0.0000  bottom
+R4        120R        R_0603             148.4000   -99.0000  270.0000  bottom
+U2        PESD2CAN    SOT-23             150.9008   -97.7500   90.0000  bottom
+U3        TCAN332     SO                 156.5000   -97.7392  180.0000  bottom
 ## End
